@@ -1,1 +1,1 @@
-# Adaptive-filter-cross-correlation-code-summer-2016-
+# Adaptive Cross Correlation Filter (Summer 2016)
