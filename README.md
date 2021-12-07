@@ -1,6 +1,6 @@
 # Adaptive Cross-Correlation Filter (Summer 2016)
 
-In the summer of 2016, I joined the RISC lab as an undergraduate summer intern. I worked on developing a system to detect a landmark placed on a moving vehicle. The work was part of an international robotics challenge called [Mohamed Bin Zayed International Robotics Challenge](www.mbzirc.com) (MBZIRC). The work was never used in the actual competition because it wasn't computationally efficient. 
+In the summer of 2016, I joined the RISC lab as an undergraduate summer intern. I worked on developing a system to detect a landmark placed on a moving vehicle. The work was part of an international robotics challenge called [Mohamed Bin Zayed International Robotics Challenge](www.mbzirc.com) (MBZIRC).
 
 This was my **very first experience** with computer vision, and I really had fun working on this particular problem. The work was never used on the competition day because it's computationally intractable under altitude information uncertainty. If altitude is unknown, one should generate filters at all possible dimensions and cross-correlate each of them with every frame. It would've been exciting to explore switching between these two modes depending on altitude uncertainty. Alternatively, one could train a DL model that takes care of all that (see below).
 
