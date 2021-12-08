@@ -2,7 +2,7 @@
 
 In the summer of 2016, I joined the RISC lab as an undergraduate summer intern. I worked on developing a system to detect a landmark placed on a moving vehicle. The work was part of an international robotics challenge called [Mohamed Bin Zayed International Robotics Challenge](www.mbzirc.com) (MBZIRC).
 
-This was my **very first experience** with computer vision, and I really had fun working on this particular problem. The work was never used on the competition day because it's computationally intractable under altitude information uncertainty. If altitude is unknown, one should generate filters at all possible dimensions and cross-correlate each of them with every frame. It would've been exciting to explore switching between these two modes depending on altitude uncertainty. Alternatively, one could train a DL model that takes care of all that (see below).
+This was my **very first experience** with computer vision, and I really enjoyed working on this particular problem 😍 The work was not used in the competition for many reasons, one was being computationally intractable under uncertainties in altitude information. If altitude is unknown, one should generate filters at all possible dimensions and cross-correlate each of them with every frame. It would've been exciting to explore switching between these two modes under uncertainty. Alternatively, one could train a DL model that takes care of all that 🤪 (see below).
 
 https://user-images.githubusercontent.com/22026004/145083332-09434125-70c0-4db9-855d-738ef879f433.mp4
 
@@ -19,6 +19,11 @@ https://user-images.githubusercontent.com/22026004/145083332-09434125-70c0-4db9-
   <img src=https://github.com/hayaalsh/AdaptiveCrossCorrelationFilterSummer2016/blob/main/filter1.png width="300"> <img     src=https://github.com/hayaalsh/AdaptiveCrossCorrelationFilterSummer2016/blob/main/filter2.png width="300">
 </p>
 
+Fun fact: In 2016, to my knowladge, cheap and light RGB-D cameras didn't exist neither did the DL models that can estimate depth from images only. You may be wondering how we estimated the 3D location of a point from images only back in the day? What we used to do is a process called camera callibration. You mainly hold a checkerboard of known dimensions and move it infront of the camera, then use the collected data, then use it to learn camera paramters and use it to convert pixel coordinates to 3D location of the object 😓. I completely forgot about this step, and I'm so glad to be reminded of it while looking for this particular work. I'm very glad that this process is no longer needed as 3D location of an object can be easily measured or even learned.
+
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/22026004/145243014-cf66c47c-7394-4412-8949-57aad2c9a49a.png width="300"> 
+</p>
 
 # DL model results (2017)
 
