@@ -19,10 +19,10 @@ https://user-images.githubusercontent.com/22026004/145083332-09434125-70c0-4db9-
   <img src=https://github.com/hayaalsh/AdaptiveCrossCorrelationFilterSummer2016/blob/main/filter1.png width="300"> <img     src=https://github.com/hayaalsh/AdaptiveCrossCorrelationFilterSummer2016/blob/main/filter2.png width="300">
 </p>
 
-Fun fact: In 2016, to my knowladge, cheap and light RGB-D cameras didn't exist neither did the DL models that can estimate depth from images only. You may be wondering how we estimated the 3D location of a point from images only back in the day? What we used to do is a process called camera callibration. You mainly hold a checkerboard of known dimensions and move it infront of the camera, then use the collected data, then use it to learn camera paramters and use it to convert pixel coordinates to 3D location of the object 😓. I completely forgot about this step, and I'm so glad to be reminded of it while looking for this particular work. I'm very glad that this process is no longer needed as 3D location of an object can be easily measured or even learned.
+**Fun fact:** To my knowladge, in 2016, cheap, light, and commercially-available RGB-D cameras didn't exist neither did the DL models that can estimate depth from images only. You may be wondering, how then did we estimate the 3D location of a point from images only back in the day? What we used to do is a process called camera callibration. You mainly hold a checkerboard of known dimensions and move it infront of the camera, then use the collected data, then use it to learn camera paramters and use it to convert pixel coordinates to 3D location of the object 😓. I completely forgot about this step, and I'm so glad to be reminded of it while looking for this particular work. I'm very glad that this process is no longer needed as 3D location of an object can be easily measured or even learned.
 
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/22026004/145243014-cf66c47c-7394-4412-8949-57aad2c9a49a.png width="300"> 
+  <img src=https://user-images.githubusercontent.com/22026004/145243420-ebecc3ad-dafb-4cf1-b124-3cc404d22437.png width="300"> 
 </p>
 
 # DL model results (2017)
