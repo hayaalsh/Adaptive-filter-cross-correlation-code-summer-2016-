@@ -19,11 +19,6 @@ https://user-images.githubusercontent.com/22026004/145083332-09434125-70c0-4db9-
   <img src=https://github.com/hayaalsh/AdaptiveCrossCorrelationFilterSummer2016/blob/main/filter1.png width="300"> <img     src=https://github.com/hayaalsh/AdaptiveCrossCorrelationFilterSummer2016/blob/main/filter2.png width="300">
 </p>
 
-**Fun fact:** To my knowladge, in 2016, cheap, light, and commercially-available RGB-D cameras didn't exist neither did the DL models that can estimate depth from images only. You may be wondering, how then did we estimate the 3D location of a point from images only back in the day? What we used to do is a process called camera callibration. You mainly hold a checkerboard of known dimensions and move it infront of the camera, and use the collected data to learn camera paramters and convert pixel coordinates to 3D location of the object. I completely forgot about this step, and I'm very glad that I live at a time where this process is no longer needed as 3D location of an object can be easily measured or even learned.
-
-<p align="center">
-  <img src=https://user-images.githubusercontent.com/22026004/145243420-ebecc3ad-dafb-4cf1-b124-3cc404d22437.png width="300"> 
-</p>
 
 # DL model results (2017)
 
